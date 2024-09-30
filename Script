@@ -1,0 +1,59 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "HUB CVTN | punch wall simulator", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "(^^)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "MAIN FARM",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "FARM=VICTORI",
+	Callback = function()
+      		print("button pressed")
+  	 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98, 15, -1215)wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-38.5, 11.9000053, -229.5, 1, 0, 0, 0, -1, 0, 0, 0, -1)wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-29.9731674, 25.7775745, 81.0674667, 0.365452379, 0.759055376, -0.538775802, -0.590940893, -0.258015156, -0.764341235, -0.719189823, 0.597714901, 0.354264796)wait(2) end})
+local click = true
+
+
+Tab:AddToggle({
+	     Name = "click",
+	     Default = click,
+	      Callback = function(Value)
+		      click = Value
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-101, 1, -100)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-201, 27, -97)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-196, 23, -166)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216, 73, -241)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98, 15, -1215)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(76, 21, -1359)wait(3)
+
+ end    
+})
+
+while click do
+    wait ()
+    print("ativo")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-101, 1, -100)wait(3
+	)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-201, 27, -97)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-196, 23, -166)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216, 73, -241)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98, 15, -1215)wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(76, 21, -1359)wait(3)
+end
+     OrionLib:Init()
